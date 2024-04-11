@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #424242;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-color: #1f2023;
+    color: #ff5800;
+    padding: 16px;
+    margin-bottom: 60px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container-flex img {
+    padding-right: 8px;
+}
+
+.container-flex p {
+    font-size: 20px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.container  p {
+    color: #fff;
+}
+
+.produto img {
+    max-width: 100%;
+}
+.destaque {
+    margin-bottom: 60px;
+}
+
+.destaque img {
+    width: 300px;
+    height: 300px;
+}
+
+.produto h3 {
+    color: #fff;
+}
+
+.destaque .produto img {
+    margin-right: 8px;
+}
+
+section h2 {
+    margin-bottom: 32px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 24.5%);
+    column-gap: 1%;
+    row-gap: 5%;
+}
+
+.produto p {
+    padding-bottom: 4px;
+}
+
+strong {
+    color: #119759;
+    font-size: larger;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+h2 {
+    border-bottom: 6px solid #ff5800;
+    color: #ff5800;
+}
+
+@media screen and (max-width:640px) {
+.conteudo {
+    display: block;
+}
+
+.container {
+    max-width: 90%;
+}
+
+.container-flex {
+    display: block;
+    font-size: 1.5em;
+}
+
+.destaque .container img {
+    width: 450px;
+    height: 450px;
+}
+
+.produtos {
+    display: block;
+}
+
+.produtos .produto {
+    margin-bottom: 32px;
+}
+
+}
+
+@media screen  and (min-width:641px) and (max-width:1023px) {
+    .container {
+        max-width: 90%;
+    }
+
+    
+.container-flex {
+    font-size: 1.5em;
+}
+
+.produtos {
+    grid-template-columns: repeat(2, 48.5%);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
